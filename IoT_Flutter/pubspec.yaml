@@ -1,0 +1,42 @@
+name: primeiro_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^4.5.1
+  firebase_auth: ^4.6.1
+  firebase_core: ^2.9.0
+  firebase_database: ^10.1.0
+  firebase_storage: ^11.1.0
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.2.19
+  flutter_launcher_icons: "^0.13.1"
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.4.0
+
+flutter_native_splash:
+  color: "#038003"
+  image: "assets/icones.png"
+  android: true
+  ios: true
+
+flutter_icons:
+  image_path: "assets/icone_sf.jpeg"
+  ios: true
+  remove_alpha_ios: true
+  android: "launcher_icon"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icone_sf.jpeg"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
