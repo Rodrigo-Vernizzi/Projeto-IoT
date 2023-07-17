@@ -3,6 +3,8 @@
 #include <Stepper.h> //Blibioteca para motor de passo
 #include "DHT.h"  //Blibioteca do sensor DHT
 #include <Firebase_ESP_Client.h>   //Blibioteca para comunicação com a Firebase
+#include "addons/TokenHelper.h"
+#include "addons/RTDBHelper.h"
 
 //////////////////////////////////////////PARÂMETROS/////////////////////////////////////////////////////////////////////////////////
 
