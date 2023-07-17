@@ -171,7 +171,7 @@ void loop() {
   float f = dht.readTemperature(true);  //Temperatura em Fahrenheit
 
   if (isnan(h) || isnan(t) || isnan(f)) { //Verificar leitura DHT
-    Serial.println(("Falha leitura sensor DHT.");
+    Serial.println("Falha leitura sensor DHT.");
   }
 
   //Serial.print(F("Humidity: "));
